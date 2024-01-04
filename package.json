@@ -81,8 +81,6 @@
     "webpack-cli": "^5.0.2"
   },
   "dependencies": {
-    "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/pluginutils": "^5.1.0",
     "userscript-metadata-generator": "^0.2.3"
   },
   "peerDependencies": {

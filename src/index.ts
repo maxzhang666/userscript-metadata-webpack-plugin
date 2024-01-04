@@ -13,8 +13,6 @@ export default function UserScriptMetaDataPlugin(options = {
   const header = userscriptMetadataGenerator(options.metadata) + '\n\n';
   const filter = createFilter(options.test || /\.user\.js$/, []);
 
-  // debugger
-  console.log(`插件执行`);
   return {
     name: 'userscript-metadata-plugin',
     renderChunk(code: string, chunk: { fileName: unknown; }, outputOptions: any) {

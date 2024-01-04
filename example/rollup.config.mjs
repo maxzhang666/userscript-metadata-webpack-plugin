@@ -1,6 +1,5 @@
 import { externals } from 'rollup-plugin-node-externals';
 import metadata from './metadata.js';
-import resolve from '@rollup/plugin-node-resolve';
 import UserScriptMetaDataPlugin from '../dist/esm/index.mjs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -12,9 +11,9 @@ export default {
   input: path.join(__dirname, './src/main.js'),
   plugins: [
     externals(),
-    resolve({
-      modulePaths: ['../node_modules'],
-    }),
+    // resolve({
+    //   modulePaths: ['../node_modules'],
+    // }),
     new UserScriptMetaDataPlugin({
       metadata,
       test: /\.js$/,
