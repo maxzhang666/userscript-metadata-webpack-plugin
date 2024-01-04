@@ -1,5 +1,5 @@
 {
-  "name": "userscript-metadata-webpack-plugin",
+  "name": "userscript-metadata-rollup-plugin",
   "version": "0.0.1",
   "description": "A rollup plugin to generate userscript metadata and prepend to js",
   "types": "./dist/esm/index.d.ts",

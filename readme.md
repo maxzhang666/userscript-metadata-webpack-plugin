@@ -1,6 +1,6 @@
-# userscript-metadata-webpack-plugin
+# userscript-metadata-rollup-plugin
 
-`userscript-metadata-webpack-plugin` is a webpack plugin to
+`userscript-metadata-rollup-plugin` is a webpack plugin to
 generate userscript metadata comments for UserScript.
 
 require:
@@ -15,7 +15,7 @@ you can find a full template project in [webpack-userscript-template](https://gi
 ### install
 
 ```bash
-npm i userscript-metadata-webpack-plugin -D
+npm i userscript-metadata-rollup-plugin -D
 ```
 
 ### configure
@@ -24,7 +24,7 @@ npm i userscript-metadata-webpack-plugin -D
 
 ```javascript
 const pkg = require('../package.json');
-const {UserScriptMetaDataPlugin} = require('userscript-metadata-webpack-plugin');
+const {UserScriptMetaDataPlugin} = require('userscript-metadata-rollup-plugin');
 
 
 const config = {
