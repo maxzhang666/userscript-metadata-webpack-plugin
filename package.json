@@ -1,7 +1,7 @@
 {
   "name": "userscript-metadata-webpack-plugin",
   "version": "0.0.1",
-  "description": "A webpack plugin to generate userscript metadata and prepend to js",
+  "description": "A rollup plugin to generate userscript metadata and prepend to js",
   "types": "./dist/esm/index.d.ts",
   "main": "./dist/cjs/index.cjs",
   "module": "./dist/esm/index.mjs",
@@ -54,10 +54,7 @@
     "plugin",
     "metadata"
   ],
-  "author": {
-    "name": "maxzhang666",
-    "email": "q373884384@gmail.com"
-  },
+  "author": "maxzhang666",
   "license": "MIT",
   "devDependencies": {
     "@types/webpack-sources": "^3.2.0",
